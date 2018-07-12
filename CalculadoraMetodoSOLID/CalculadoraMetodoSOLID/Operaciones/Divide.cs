@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalculadoraMetodoSOLID
 {
-    public class Class1
+    public class Divide : OperacionAbstracta
     {
+        public override float EjecutaOperacion()
+        {
+            return x / y;
+        }
     }
 }
